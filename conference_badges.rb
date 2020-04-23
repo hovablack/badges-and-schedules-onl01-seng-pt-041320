@@ -19,4 +19,11 @@ end
 def printer
   batch_badge_creator(speakers).each do |badge|
     puts badge
+  end
+    assign_rooms(speaker).each do |assignment|
+      puts assignment
+    end
 end
+
+
+
